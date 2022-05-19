@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+amisbackend API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="amisbackend",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://amisbackend.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "lygntx",
+        "url": "http://amisbackend.com/contact/",
+        "email": "lygntx@amisbackend.com",
     },
     license_info={
         "name": "The Unlicense",
